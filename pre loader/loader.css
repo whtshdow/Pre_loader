@@ -1,0 +1,138 @@
+*
+{
+	box-sizing: border-box;
+}
+html
+{
+	scroll-behavior: smooth;
+}
+body
+{
+	padding:0;
+	margin: 0;
+	font-family: roboto;
+}
+h1,h2,h3,h4,h5,h6,p
+{
+	margin: 0;
+	padding: 0;
+}
+ul,li
+{
+	list-style: none;
+	margin:0;
+	padding: 0; 
+}
+a
+{
+	text-decoration: none;
+	transition: all 0.5s ease 0s;
+}
+input:focus,
+button:focus,
+select:focus
+{
+	margin:0;
+	padding: 0; 
+}
+/*=====================================================================*/
+.loader
+{
+	position: relative;
+	width: 100vh;
+	width: 280px;
+	height: 280px;
+	/*display: flex;*/
+	justify-content: center;
+	margin: 400px auto;
+	/*margin-left: 200px;*/
+}
+.square
+{
+	width: 60px;
+	height: 60px;
+	background-color: lightblue;
+	float: left;
+	animation: cube-loader 1.3s ease-in-out infinite;
+}
+/*.loader:hover
+{
+	background-color: black;
+}*/
+.sq-1
+{
+	animation-delay: 0.1s;
+}
+.sq-2
+{
+	animation-delay: 0.2s;
+}
+.sq-3
+{
+	animation-delay: 0.3s;
+}
+.sq-4
+{
+	animation-delay: 0.4s;
+}
+.sq-5
+{
+	animation-delay: 0.2s;
+}
+.sq-6
+{
+	animation-delay: 0.3s;
+}
+.sq-7
+{
+	animation-delay: 0.4s;
+}
+.sq-8
+{
+	animation-delay: 0.5s;
+}
+.sq-9
+{
+	animation-delay: 0.3s;
+}
+.sq-10
+{
+	animation-delay: 0.4s;
+}
+.sq-11
+{
+	animation-delay: 0.5s;
+}
+.sq-12
+{
+	animation-delay: 0.6s;
+}
+.sq-13
+{
+	animation-delay: 0.4s;
+}
+.sq-14
+{
+	animation-delay: 0.5s;
+}
+.sq-15
+{
+	animation-delay: 0.6s;
+}
+.sq-16
+{
+	animation-delay: 0.7s;
+}
+
+
+@keyframes cube-loader 
+{
+  0% 
+  {
+            transform: scale3D(1, 1, 0);
+  } 
+  40% 
+  {
+            transform: scale3D(0, 0, 1);
+  } 
+}
